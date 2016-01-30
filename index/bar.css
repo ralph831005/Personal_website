@@ -1,15 +1,29 @@
-#bar {
+div.bar {
 	background: url(bar.png) repeat-x;
 	max-width: 3000px;
 	height: 40px;
 	border: 3px solid #A9FDF6;
 	list-style: none;
+	padding-left: 50px;
+	margin: 0px;
 }
-li a{
+a.href {
+	width: 200px;
+	height: 40px;
+	float: left;
 	font-size: 36px;
 	color: #8550DC;
-	float: left;
 	text-decoration: none;
-	padding-left: 30px;
-	padding-right: 50px;
+}
+a.href:link, a.href:visited{
+	background: url(bar.png) repeat-x;
+}
+a.href:hover, a.href:active{
+	background-color: black;
+}
+a.left{
+	float: left;
+}
+a.right{
+	float: right;
 }
