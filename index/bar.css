@@ -1,0 +1,15 @@
+#bar {
+	background: url(bar.png) repeat-x;
+	max-width: 3000px;
+	height: 40px;
+	border: 3px solid #A9FDF6;
+	list-style: none;
+}
+li a{
+	font-size: 36px;
+	color: #8550DC;
+	float: left;
+	text-decoration: none;
+	padding-left: 30px;
+	padding-right: 50px;
+}
