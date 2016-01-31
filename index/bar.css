@@ -1,5 +1,5 @@
 div.bar {
-	background: url(bar.png) repeat-x;
+	background-color: #5f5f5f;
 	max-width: 3000px;
 	height: 40px;
 	border: 0px solid #A9FDF6;
@@ -8,25 +8,27 @@ div.bar {
 	margin: 0px;
 	padding-right: 150px;
 }
-a.href {
+div.block {
 	width: 200px;
 	height: 40px;
 	float: left;
-	font-size: 34px;
-	color: #011996;
-	text-decoration: none;
-	font-family: Arial;
-	font-weight: Bold;
+	text-align: center;
 }
-a.href:link, a.href:visited{
-	background: url(bar.png) repeat-x;
+div.block:link, div.block:visited{
+	background-color: #5f5f5f;
 }
-a.href:hover, a.href:active{
-	background-color: black;
+div.block:hover, div.block:active{
+	background-color: #2e2f2e;
 }
-a.left{
+div.left{
 	float: left;
 }
-a.right{
+div.right{
 	float: right;
+}
+a.href{
+	font-size: 32px;
+	color: #f1f1f1;
+	text-decoration: none;
+	font-family: awesome;
 }

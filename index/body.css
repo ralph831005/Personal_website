@@ -1,11 +1,23 @@
+@font-face{
+	font-family: awesome;
+	src: url(../font/fontawesome-webfont.woff);
+}
 body{
-	background-color: #d3f6ff;
+	background-color: #2e2f2e;
 	margin: 0;
 }
-p{
-	font-family: Georgia;
-	font-style: italic;
+p, li{
+	font-family: awesome;
 	font-size: 20px;
+}
+li{
+	padding-top: 20px;
+}
+div.content{
+	background-color: #e6eae7;
+	margin: 0px;
+	width: 3000px;
+	min-height: 600px;
 }
 div.container {
 	max-width: 3000px;
