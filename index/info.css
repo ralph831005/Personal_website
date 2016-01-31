@@ -1,0 +1,6 @@
+div.info {
+	background-image: url(info.png);
+	background-color: #011996;
+	max-width: 3000px;
+	height: 1000px;
+}

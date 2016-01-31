@@ -1,6 +1,11 @@
 body{
-	background-color: white;
+	background-color: #d3f6ff;
 	margin: 0;
+}
+p{
+	font-family: Georgia;
+	font-style: italic;
+	font-size: 20px;
 }
 div.container {
 	max-width: 3000px;
@@ -8,8 +13,9 @@ div.container {
 	border: 0px;
 	background-color: inherent;
 	margin-left: 50px;
-	margin-top: 25px;
+	margin-top: 0px;
 	margin-right: 25px;
+	margin-bottom: 0px;
 }
 div.parallel {
 	box-sizing: border-box;
